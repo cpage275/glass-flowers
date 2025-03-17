@@ -1,0 +1,237 @@
+body {
+    background-color: black;
+    margin: 0;
+    margin-top: -10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.gallery {
+    position: relative;
+    width: 200vw; /* Ensures enough space for horizontal scrolling */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    height: auto;
+    margin: 1vw;
+    vertical-align: top;
+}
+
+/* Caption styling */
+.caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    color: white;
+    font-weight: 100;
+}
+
+.italic {
+    font-style: italic;
+}
+
+p {
+    margin: 4px;
+}
+
+/* Individual column styling */
+.column {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vh;
+    margin: 1vw;
+    vertical-align: center;
+    height: 90vh;
+}
+
+/* Individual image styling */
+#poppy-container {
+    margin: 1vw;
+}
+
+#poppy-img {
+    height: 80vh;
+    width: auto;
+}
+
+#poppy-caption {
+    margin-top: 1vh;
+    margin-bottom: -7vh;
+}
+
+/* Ginkgo & Sheoak Column */
+#ginkgo-img {
+    height: 35vh;
+    width: auto;
+    margin-top: 3vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+
+}
+
+#ginkgo-caption {
+    margin-top: 1vh;
+    margin-left: 3vw;
+    bottom: auto;
+}
+
+#sheoak-img {
+    height: 25vh;
+    width: auto;
+    margin-bottom: 7vh;
+    margin-left: -10vh;
+
+}
+
+#sheoak-caption {
+    margin-top: 1vh;
+    margin-bottom: -2vh;
+    margin-left: -7vh;
+
+}
+
+/* Linden & Stamen Column */
+#linden-img {
+    height: 50vh;
+    margin-top: -10px;
+    width: auto;
+    margin-left: -2vh;
+}
+
+#linden-caption {
+    margin-top: 1vh;
+    margin-left: 3vw;
+    bottom: auto;
+}
+
+#stamen-img {
+    height: 20vh;
+    width: auto;
+    margin-bottom: 7vh;
+}
+
+#stamen-caption {
+    margin-top: 1vh;
+    margin-bottom: 0vh;
+}
+
+/* Bellflower & Cowslip Column */
+#bellflower-img {
+    height: 30vh;
+    width: auto;
+    margin-top: -10px;
+    margin-left: -2vh;
+}
+
+#bellflower-caption {
+    margin-top: 1vh;
+    bottom: auto;
+}
+
+#cowslip-img {
+    height: 40vh;
+    width: auto;
+    margin-bottom: 4vh;
+}
+
+#cowslip-caption {
+    margin-top: 1vh;
+    margin-bottom: -2vh;
+}
+
+/* Speedwell & Lily Column */
+#speedwell-img {
+    height: 60vh;
+    width: auto;
+    margin-top: -10px;
+    margin-left: 3vh;
+    margin-right: 8vh;
+
+}
+
+#speedwell-caption {
+    margin-top: -7vh;
+    margin-left: 3vw;
+    bottom: auto;
+}
+
+#lily-img {
+    height: 20vh;
+    width: auto;
+    margin-bottom: -3vh;
+    margin-right: 0vh;
+
+}
+
+#lily-caption {
+    margin-top: 1vh;
+    margin-left: -15vh;
+    margin-bottom: 10vh;
+}
+
+/* Grape & Gum Column */
+#grape-img {
+    height: 38vh;
+    width: auto;
+    margin-top: -10px;
+    margin-left:0vh;
+    margin-right: 7vw;
+
+}
+
+#grape-caption {
+    margin-top: 2vh;
+    margin-left: 0vw;
+
+    bottom: auto;
+}
+
+#gum-img {
+    height: 20vh;
+    width: auto;
+    margin-bottom: 7vh;
+}
+
+#gum-caption {
+    margin-top: 1vh;
+    margin-bottom: 0vh;
+}
+
+/* Maple & Cordgrass Column */
+#maple-img {
+    height: 50vh;
+    width: auto;
+    margin-top: 7vh;
+    margin-left: -2vh;
+    margin-right: 7vw;
+
+}
+
+#maple-caption {
+    margin-top: 5vh;
+    margin-left: -12vw;
+    bottom: auto;
+}
+
+#cordgrass-img {
+    height: 8vh;
+    width: auto;
+    margin-bottom: 12vh;
+}
+
+#cordgrass-caption {
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+}
