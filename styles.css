@@ -9,7 +9,7 @@ body {
 
 .gallery {
     position: relative;
-    width: 200vw; /* Ensures enough space for horizontal scrolling */
+    width: 100vw; /* Ensures enough space for horizontal scrolling */
     height: 100vh;
     display: flex;
     align-items: center;
