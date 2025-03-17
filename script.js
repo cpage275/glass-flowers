@@ -1,4 +1,21 @@
+// Preload images to ensure instant transitions
+function preloadImages() {
+    // Create an array of image paths to preload
+    const imagesToPreload = [
+        'assets/1-cracked.gif',
+        'assets/1-broken.gif',
+    ];
+    
+    // Create Image objects to preload each image
+    imagesToPreload.forEach(function(src) {
+        const img = new Image();
+        img.src = src;
+        console.log('Preloaded: ' + src);
+    });
+}
 
+// Start preloading images immediately
+preloadImages();
 
 document.addEventListener('DOMContentLoaded', function() {
     
