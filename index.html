@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Help generating glitch effects from:
+
+https://p5.glitch.me/
+
+https://editor.p5js.org/KevinWorkman/sketches/lwn8I0r7J
+
+https://editor.p5js.org/shfitz/sketches/mLC_hxKvF -->
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Gallery</title>
@@ -12,8 +21,8 @@
         <div class="image-container" id="poppy-container">
             <img src="assets/1.png" id="poppy-img" alt="California poppy">
             <div class="caption" id="poppy-caption">
-                <p>First line of caption</p>
-                <p class="italic">Second line of caption</p>
+                <p>California poppy</p>
+                <p class="italic">Eschscholzia californica</p>
             </div>
         </div>
 
@@ -22,15 +31,15 @@
             <div class="image-container" id="ginkgo-container">
                 <img src="assets/2.png" id="ginkgo-img" alt="Ginkgo">
                 <div class="caption" id="ginkgo-caption">
-                    <p>First line of caption</p>
-                    <p class="italic">Second line of caption</p>
+                    <p>Ginkgo (leaves)</p>
+                    <p class="italic">Ginkgo biloba</p>
                 </div>
             </div>
             <div class="image-container" id="sheoak-container">
                 <img src="assets/3.png" id="sheoak-img" alt="Sheoak">
                 <div class="caption" id="sheoak-caption">
-                    <p>First line of caption</p>
-                    <p class="italic">Second line of caption</p>
+                    <p>Drooping sheoak (seed pod)</p>
+                    <p class="italic">Allocasuarina verticillata</p>
                 </div>
             </div>
         </div>
@@ -40,15 +49,15 @@
             <div class="image-container" id="linden-container">
                 <img src="assets/4.png" id="linden-img" alt="Linden">
                 <div class="caption" id="linden-caption">
-                    <p>First line of caption</p>
-                    <p class="italic">Second line of caption</p>
+                    <p>Small-leaved linden</p>
+                    <p class="italic">Tilia cordata</p>
                 </div>
             </div>
             <div class="image-container" id="stamen-container">
                 <img src="assets/5.png" id="stamen-img" alt="Stamen">
                 <div class="caption" id="stamen-caption">
-                    <p>First line of caption</p>
-                    <p class="italic">Second line of caption</p>
+                    <p>Tiger lily (stigma and stamen)</p>
+                    <p class="italic">Lilium lancifolium</p>
                 </div>
             </div>
         </div>
@@ -58,15 +67,15 @@
             <div class="image-container" id="bellflower-container">
                 <img src="assets/6.png" id="bellflower-img" alt="Bellflower">
                 <div class="caption" id="bellflower-caption">
-                    <p>First line of caption</p>
-                    <p class="italic">Second line of caption</p>
+                    <p>Bellflower (fruit cross section)</p>
+                    <p class="italic">Campanulaceae</p>
                 </div>
             </div>
             <div class="image-container" id="cowslip-container">
                 <img src="assets/7.png" id="cowslip-img" alt="Cowslip">
                 <div class="caption" id="cowslip-caption">
-                    <p>First line of caption</p>
-                    <p class="italic">Second line of caption</p>
+                    <p>Cowslip (flower cross section)</p>
+                    <p class="italic">Primula veris</p>
                 </div>
             </div>
         </div>
@@ -76,14 +85,14 @@
             <div class="image-container" id="speedwell-container">
                 <img src="assets/8.png" id="speedwell-img" alt="Speedwell">
                 <div class="caption" id="speedwell-caption">
-                    <p>First line of caption</p>
-                    <p class="italic">Second line of caption</p>
+                    <p>Garden nasturtium</p>
+                    <p class="italic">Tropaeolum majus</p>
                 </div>
             </div>
             <div class="image-container" id="lily-container">
                 <div class="caption" id="lily-caption">
-                    <p>First line of caption</p>
-                    <p class="italic">Second line of caption</p>
+                    <p>Spear thistle</p>
+                    <p class="italic">Cirsium vulgare</p>
                 </div>
 
                 <img src="assets/9.png" id="lily-img" alt="Lily">
@@ -96,15 +105,15 @@
             <div class="image-container" id="grape-container">
                 <img src="assets/10.png" id="grape-img" alt="Grape">
                 <div class="caption" id="grape-caption">
-                    <p>First line of caption</p>
-                    <p class="italic">Second line of caption</p>
+                    <p>Grape hyacinth (flower cross section)</p>
+                    <p class="italic">Muscari armeniacum</p>
                 </div>
             </div>
             <div class="image-container" id="gum-container">
                 <img src="assets/11.png" id="gum-img" alt="Gum">
                 <div class="caption" id="gum-caption">
-                    <p>First line of caption</p>
-                    <p class="italic">Second line of caption</p>
+                    <p>Black gum (seed)</p>
+                    <p class="italic">Nyssa sylvatica</p>
                 </div>
             </div>
         </div>
@@ -113,8 +122,8 @@
         <div class="column" id = "maple-cordgrass">
             <div class="image-container" id="maple-container">
                 <div class="caption" id="maple-caption">
-                    <p>First line of caption</p>
-                    <p class="italic">Second line of caption</p>
+                    <p>Sugar maple (seed pods)</p>
+                    <p class="italic">Acer saccharum</p>
                 </div>
                 <img src="assets/12.png" id="maple-img" alt="Maple">
                 
@@ -122,8 +131,8 @@
             <div class="image-container" id="cordgrass-container">
                 <img src="assets/13.png" id="cordgrass-img" alt="Cordgrass">
                 <div class="caption" id="cordgrass-caption">
-                    <p>First line of caption</p>
-                    <p class="italic">Second line of caption</p>
+                    <p>Smooth cordgrass (seed)</p>
+                    <p class="italic">Spartina alterniflora</p>
                 </div>
             </div>
         </div>
